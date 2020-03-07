@@ -27,7 +27,7 @@ def del_ip(ip):
     return dlmsql.dlt('successstore', ip)
 
 
-def ins_ip(ip):
+def insert_ip(ip):
     return dlmsql.add('failstore', ip)
 
 
@@ -39,13 +39,13 @@ def check_ip(ip):
     proxies = {'http': f'http://{ip}', 'https': f'https://{ip}'}
     try:
         # 请求连接是否可以访问
-        requests.get('https://www.baidu.com/s?wd=ip', headers=headers, proxies=proxies, timeout=3)
+        requests.get('https://www.baidu.com/s?wd=ip', headers=headers, proxies=proxies, timeout=2)
         print(f'IP池检测:success-{ip}')
     except:
-        # print(f'IP池检测:fail-{ip}')
+        print(f'IP池检测:fail-{ip}')
         time.sleep(1)
+        insert_ip(ip)
         del_ip(ip)
-        ins_ip(ip)
 
 
 def main():

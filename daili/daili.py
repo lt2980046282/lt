@@ -77,11 +77,11 @@ def check_ip(ip):
     proxies = {'http': f'http://{ip}', 'https': f'https://{ip}'}
     try:
         # 请求连接是否可以访问
-        requests.get('https://www.baidu.com/', headers=headers, proxies=proxies, timeout=5)
+        requests.get('https://www.baidu.com/', headers=headers, proxies=proxies, timeout=3)
         print(f'success-{ip}')
         dlmsql.add('successstore', ip)
     except:
-        dlmsql.add('failstore', ip)
+        pass
         # print(f'fail-{ip}')
 
 
@@ -107,8 +107,6 @@ if __name__ == '__main__':
     while True:
         getIplist()
         main()
-        os.system('py fail_daili.py')
-        os.system('py success_daili.py')
         getKDLIpList()
         main()
 

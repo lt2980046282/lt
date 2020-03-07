@@ -1,3 +1,6 @@
+import random
+import time
+
 import MySQLdb
 
 
@@ -6,11 +9,14 @@ def add(table_name, ip):
         db = MySQLdb.connect('localhost', 'root', 'lt980727', 'proxy', charset='utf8')
     except MySQLdb.OperationalError:
         print("连接失败")
+    # except UnboundLocalError:
+    #     db = MySQLdb.connect('localhost', 'root', 'lt980727', 'proxy', charset='utf8')
     my_cursor = db.cursor()
     try:
         my_cursor.execute(f"insert {table_name}(proxy) values('{ip}')")
     except MySQLdb.IntegrityError:
-        print('已过滤存在的ip')
+        pass
+        # print('已过滤存在的ip')
     try:
         db.commit()
     except:
@@ -60,3 +66,16 @@ def showList(table_name):
             if not row[0] is None:
                 plist.append(row[0])
         return plist
+
+
+def random_proxy():
+    p_list = showList('successstore')
+    proxy = random.choice(p_list)
+    print('当前IP池数量:', len(p_list))
+    return proxy
+
+
+if __name__ == '__main__':
+    while True:
+        time.sleep(3)
+        print(random_proxy())

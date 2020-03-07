@@ -18,11 +18,13 @@ class CheckFailProxy(Thread):
 
 
 def read_iplist():
-    fail_ip_list.extend(dlmsql.showList('failstore'))
+    ls = dlmsql.showList('failstore')
+    if not ls is None:
+        fail_ip_list.extend(dlmsql.showList('failstore'))
 
 
 def ins_ip(ip):
-    return dlmsql.dlt('successstore', ip)
+    return dlmsql.add('successstore', ip)
 
 
 def del_ip(ip):
@@ -39,6 +41,7 @@ def check_ip(ip):
         # 请求连接是否可以访问
         requests.get('https://www.baidu.com/s?wd=ip', headers=headers, proxies=proxies, timeout=1)
         print(f'失败IP池重新检测:success-{ip}')
+        time.sleep(1)
         del_ip(ip)
         ins_ip(ip)
     except:
@@ -47,16 +50,17 @@ def check_ip(ip):
 
 def main():
     threads = []
-    for index, ip in enumerate(fail_ip_list):
-        time.sleep(1)
-        t = CheckFailProxy(ip)
-        threads.append(t)
-        t.start()
-    for index, t in enumerate(threads):
-        try:
-            t.join()
-        except:
-            break
+    if len(fail_ip_list) > 0:
+        for index, ip in enumerate(fail_ip_list):
+            time.sleep(1)
+            t = CheckFailProxy(ip)
+            threads.append(t)
+            t.start()
+        for index, t in enumerate(threads):
+            try:
+                t.join()
+            except:
+                break
 
 
 # 程序入口 接入代理只要把获取的IP列表装入plist即可
