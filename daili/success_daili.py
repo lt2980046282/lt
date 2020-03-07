@@ -40,9 +40,9 @@ def check_ip(ip):
     try:
         # 请求连接是否可以访问
         requests.get('https://www.baidu.com/s?wd=ip', headers=headers, proxies=proxies, timeout=3)
-        print(f'IP池过滤:success-{ip}')
+        print(f'IP池检测:success-{ip}')
     except:
-        print(f'IP池过滤:fail-{ip}')
+        # print(f'IP池检测:fail-{ip}')
         time.sleep(1)
         del_ip(ip)
         ins_ip(ip)
