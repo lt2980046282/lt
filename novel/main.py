@@ -11,4 +11,4 @@ def daili():
     for index in range(1502):
         os.system(f'scrapy crawl daili -a page={index+1819} ')
 
-novel()
+daili()

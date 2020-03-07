@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "yh",  # 需要自己手动创建数据库
+        "NAME": "proxy",  # 需要自己手动创建数据库
         "USER": "root",
         "PASSWORD": "lt980727",
         "HOST": "127.0.0.1",

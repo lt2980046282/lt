@@ -19,7 +19,7 @@ from app01 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('add/<int:id>', views.add),
+    path('add/', views.add),
     path('delete/', views.delete),
     path('update/', views.update),
 ]
