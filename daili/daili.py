@@ -5,8 +5,8 @@ from threading import Thread, Lock
 import requests
 from lxml import etree
 from urllib3.exceptions import MaxRetryError
-
-import dlmsql
+from setting import config
+import dlmysql
 
 
 class Proxies(Thread):
@@ -50,7 +50,6 @@ def getKDLIpList():
     for page in range(50):
         try:
             response = requests.get(url=f'https://www.kuaidaili.com/free/intr/{page}')
-            print(page)
         except:
             os.system('py daili.py')
         time.sleep(1)
@@ -77,12 +76,12 @@ def check_ip(ip):
     proxies = {'http': f'http://{ip}', 'https': f'https://{ip}'}
     try:
         # 请求连接是否可以访问
-        requests.get('https://www.baidu.com/', headers=headers, proxies=proxies, timeout=3)
+        requests.get('http://www.baidu.com/', headers=headers, proxies=proxies, timeout=config['timeout'])
         print(f'success-{ip}')
-        dlmsql.add('successstore', ip)
+        dlmysql.add('successstore', ip)
     except:
-        pass
-        # print(f'fail-{ip}')
+        if config['is_fail_log']:
+            print(f'fail-{ip}')
 
 
 def main():
@@ -90,7 +89,6 @@ def main():
     lock = Lock()
     for index, ip in enumerate(plist):
         time.sleep(1)
-        dlmsql.add('store', ip)
         lock.acquire()
         t = Proxies(ip)
         lock.release()

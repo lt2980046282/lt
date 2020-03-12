@@ -1,26 +1,28 @@
 # coding=gbk
 import time
-
 from novel.items import NovelItem
 import scrapy
-
-
+from tools.dlmsql import random_proxy
 class ManhwaSpider(scrapy.Spider):
-    name = 'manhwa'
+    name = 'novel'
     author = ''
     novel_name = ''
     type = ''
+    page = 1
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'
     }
-    {}
+
     def start_requests(self):
         yield scrapy.Request(f'http://www.biquge.info/wanjiexiaoshuo/{self.page}')
 
     def parse(self, response):
         comic_urls = response.xpath('//span[@class="s2"]/a/@href').getall()
         for index, comic_url in enumerate(comic_urls):
-            yield response.follow(url=comic_url, callback=self.parse_chapter, headers=self.headers)
+            proxy = random_proxy()
+            print(proxy)
+            proxies = f'http://{proxy}'
+            yield response.follow(url=comic_url, callback=self.parse_chapter, headers=self.headers, meta={'proxy': proxies})
 
     def parse_chapter(self, response):
         charpters = response.xpath('//div[@id=$val]/dl/dd', val='list')

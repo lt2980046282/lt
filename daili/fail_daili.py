@@ -2,7 +2,8 @@ import os
 import time
 from threading import Thread
 import requests
-import dlmsql
+import dlmysql
+from setting import config
 
 
 class CheckFailProxy(Thread):
@@ -18,17 +19,18 @@ class CheckFailProxy(Thread):
 
 
 def read_iplist():
-    ls = dlmsql.showList('failstore')
+    ls = dlmysql.showList('failstore')
     if not ls is None:
-        fail_ip_list.extend(dlmsql.showList('failstore'))
+        fail_ip_list.extend(dlmysql.showList('failstore'))
+    return ls
 
 
 def ins_ip(ip):
-    return dlmsql.add('successstore', ip)
+    return dlmysql.add('successstore', ip)
 
 
 def del_ip(ip):
-    return dlmsql.add('failstore', ip)
+    return dlmysql.add('failstore', ip)
 
 
 # 检测IP是否可用
@@ -39,13 +41,14 @@ def check_ip(ip):
     proxies = {'http': f'http://{ip}', 'https': f'https://{ip}'}
     try:
         # 请求连接是否可以访问
-        requests.get('https://www.baidu.com/s?wd=ip', headers=headers, proxies=proxies, timeout=1)
-        print(f'失败IP池重新检测:success-{ip}')
+        requests.get('http://www.baidu.com', headers=headers, proxies=proxies, timeout=config['timeout'])
+        # print(f'失败IP池重新检测:success-{ip}')
         time.sleep(1)
         del_ip(ip)
         ins_ip(ip)
     except:
-        print(f'失败IP池重新检测:fail-{ip}')
+        if config['is_fail_log']:
+            print(f'失败IP池重新检测:fail-{ip}')
 
 
 def main():
@@ -68,7 +71,10 @@ def main():
 # main()此为一个完整的接口
 if __name__ == '__main__':
     while True:
-        read_iplist()
-        main()
+        lt = read_iplist()
+        if not lt is None:
+           main()
+        else:
+            continue
 
 

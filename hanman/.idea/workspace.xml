@@ -1,7 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef94cc9-8e25-40a4-b94b-bc69d78941c6" name="Default Changelist" comment="" />
+    <list default="true" id="4ef94cc9-8e25-40a4-b94b-bc69d78941c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../daili/dlmysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/Form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/Helloworld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/NoteBook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/OnClick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/Panel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/ProSizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/Sizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/TextControl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/上瘾游戏/第22话 信守承诺/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/上瘾游戏/第22话 信守承诺/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/上瘾游戏/第22话 信守承诺/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/上瘾游戏/第22话 信守承诺/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/交往条件/第15话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/今天在哪嘞/第23话 多多观察/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/今天在哪嘞/第23话 多多观察/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/今天在哪嘞/第23话 多多观察/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/今天在哪嘞/第23话 多多观察/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/今天开始做明星/第1话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/军人的诱惑/第17话 优先目标/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/军人的诱惑/第17话 优先目标/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/剥夺/第40话 报复/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/双面代表/第1话 有夫之妇/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/双面代表/第1话 有夫之妇/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/双面代表/第1话 有夫之妇/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/双面代表/第1话 有夫之妇/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/双面代表/第1话 有夫之妇/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/双面代表/第1话 有夫之妇/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/双面代表/第1话 有夫之妇/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/双面代表/第1话 有夫之妇/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/双面代表/第1话 有夫之妇/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/天才医生/第24话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/女人岛/第1话 魔爪/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/女人岛/第1话 魔爪/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/女人岛/第1话 魔爪/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/女神直播间/第16话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/女神直播间/第16话/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/女神直播间/第16话/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/女神直播间/第16话/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/女神直播间/第16话/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/女神网咖/第35话 男朋友/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/幽灵道士/第26话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/报告学长/第1话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/拈花指/第31话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/拈花指/第31话/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/拈花指/第31话/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/爱欲交织/第19话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/缝隙/第1话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/超级作弊器/第62话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/长腿姐姐/第24话 试探/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/长腿姐姐/第24话 试探/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manhua/鬼传/第1话/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/daili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/fail_daili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/success_daili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/novel/dlmsql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/tools/daili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/tools/dlmsql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/tools/fail_daili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/tools/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/tools/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/tools/success_daili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../winrar/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/.idea/MysqlDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winrar/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winrar/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winrar/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/createdemo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/deletedemo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/insertdemo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/querydemo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MysqlDemo/updatedemo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../winrar/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/.idea/TestThread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../winrar/.idea/winrar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winrar/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/p1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/p2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestThread/test_thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/daili.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/daili.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/dlmsql.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/dlmsql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/fail_daili.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/fail_daili.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/success_daili.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/success_daili.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/daili.py" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/GridForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/danji/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/MenuBar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/danji/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/danji/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/danji/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/danji/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/danji/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/danji/spiders/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/danji/spiders/jisu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../danji/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/download_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanman/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hanman/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanman/spiders/manhwa.py" beforeDir="false" afterPath="$PROJECT_DIR$/hanman/spiders/manhwa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novel/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novel/novel/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/novel/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novel/novel/spiders/manhwa.py" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/novel/spiders/manhwa.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +133,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YWpCcc7A36Csj3EucVyBYx6Mb3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,15 +145,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yinghua" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\29800\PycharmProjects\hanman" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.download_img">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="download" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hanman" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,9 +279,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.download_img" />
         <item itemvalue="Python.download" />
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.pipelines" />
       </list>
@@ -172,11 +308,23 @@
       <workItem from="1583157002293" duration="13000" />
       <workItem from="1583160334552" duration="8000" />
       <workItem from="1583160354981" duration="338000" />
+      <workItem from="1583895271597" duration="3537000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="513" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583122443104">
@@ -213,10 +361,10 @@
     <state x="471" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583155740951" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hanman$download_img.coverage" NAME="download_img Coverage Results" MODIFIED="1583155159122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hanman$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1583139831030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hanman$download.coverage" NAME="download Coverage Results" MODIFIED="1583152446125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hanman$main.coverage" NAME="main Coverage Results" MODIFIED="1583129304909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hanman" />
     <SUITE FILE_PATH="coverage/hanman$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1583068807677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hanman" />
+    <SUITE FILE_PATH="coverage/hanman$download_img.coverage" NAME="download_img Coverage Results" MODIFIED="1583155159122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hanman$main.coverage" NAME="main Coverage Results" MODIFIED="1583129304909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hanman" />
+    <SUITE FILE_PATH="coverage/hanman$download.coverage" NAME="download Coverage Results" MODIFIED="1583152446125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hanman$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1583895347131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -14,7 +14,7 @@ class ManhwaSpider(scrapy.Spider):
     name = 'manhwa'
 
     def start_requests(self):
-        yield scrapy.Request(f'https://www.manhwa.cc/booklist?page={self.page}')
+        yield scrapy.Request(f'https://www.manhwa.cc/booklist/%E9%9F%A9%E5%9B%BD?tag=%E9%9F%A9%E5%9B%BD&page={self.page}')
 
     def parse(self, response):
         comics = response.xpath('//div[@class="m1100 l_content"]/ul/li')
