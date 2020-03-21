@@ -20,7 +20,7 @@ def rundl(l):
 
 def main():
     # 'success_daili',
-    ls = ['dlmysql', 'daili', 'fail_daili']
+    ls = ['dlmysql', 'daili', 'success_daili', 'fail_daili']
     for index, l in enumerate(ls):
         t = RunDaili(l)
         try:

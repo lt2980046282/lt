@@ -1,6 +1,8 @@
+import os
 import random
 import time
 import MySQLdb
+import requests
 from setting import config
 
 
@@ -78,6 +80,7 @@ def random_proxy():
         print('当前IP池数量:', len(p_list))
     except:
         proxy = 0
+        print('当前IP池数量:', proxy)
     return proxy
 
 
@@ -94,6 +97,12 @@ if __name__ == '__main__':
     clear_table('failstore')
     while True:
         time.sleep(3)
-        ls = random_proxy()
-        if not ls is None:
-            print(random_proxy())
+        random_proxy()
+            # try:
+            #     requests.get('http://www.baidu.com')
+            #     os.system(
+            #         'reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 1 /f')
+            #     os.system(
+            #         f'reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyServer /d "{ls}" /f')
+            # except:
+            #     os.system('reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 0 /f')

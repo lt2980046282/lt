@@ -41,8 +41,14 @@ def check_ip(ip):
     proxies = {'http': f'http://{ip}', 'https': f'https://{ip}'}
     try:
         # 请求连接是否可以访问
-        requests.get('http://www.baidu.com', headers=headers, proxies=proxies, timeout=config['timeout'])
-        print(f'IP池检测:success-{ip}')
+        start_time = time.time()
+        requests.get('http://www.baidu.com/', headers=headers, proxies=proxies, timeout=config['timeout'])
+        end_time = time.time()
+        run_time = end_time - start_time
+        if config['is_fail_log']:
+            print(f'IP池检测:success-{ip}--{int(run_time)}')
+        if int(run_time) == 0:
+            print(f'IP池检测:success-{ip}--{int(run_time)}')
     except:
         if config['is_fail_log']:
             print(f'IP池检测:fail-{ip}')
@@ -55,7 +61,7 @@ def main():
     threads = []
     if len(success_ip_list) > 0:
         for index, ip in enumerate(success_ip_list):
-            time.sleep(2)
+            time.sleep(1)
             t = CheckSuccessProxy(ip)
             threads.append(t)
             t.start()

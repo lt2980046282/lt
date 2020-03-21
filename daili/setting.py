@@ -13,9 +13,9 @@ config = {
     # 数据库端口
     'port': 3306,
     # 代理超时默认3秒
-    'tiemout': 10,
+    'timeout': 5,
     # 显示测试成功的代理,默认显示
-    'is_success_log': True,
+    'is_success_log': False,
     # 显示测试失败的代理,默认不显示
     'is_fail_log': False,
 }

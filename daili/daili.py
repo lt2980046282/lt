@@ -76,8 +76,14 @@ def check_ip(ip):
     proxies = {'http': f'http://{ip}', 'https': f'https://{ip}'}
     try:
         # 请求连接是否可以访问
+        start_time = time.time()
         requests.get('http://www.baidu.com/', headers=headers, proxies=proxies, timeout=config['timeout'])
-        print(f'success-{ip}')
+        end_time = time.time()
+        run_time = end_time-start_time
+        if config['is_fail_log']:
+            print(f'success-{ip}--{int(run_time)}')
+        if int(run_time) == 0:
+            print(f'IP池检测:success-{ip}--{int(run_time)}')
         dlmysql.add('successstore', ip)
     except:
         if config['is_fail_log']:

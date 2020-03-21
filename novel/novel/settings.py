@@ -14,7 +14,9 @@ BOT_NAME = 'novel'
 SPIDER_MODULES = ['novel.spiders']
 NEWSPIDER_MODULE = 'novel.spiders'
 
-
+RETRY_ENABLED: True
+RETRY_TIMES: 500
+RETRY_HTTP_CODECS: 503
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'novel (+http://www.yourdomain.com)'
 
@@ -22,7 +24,7 @@ NEWSPIDER_MODULE = 'novel.spiders'
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 1
+CONCURRENT_REQUESTS = 20
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay

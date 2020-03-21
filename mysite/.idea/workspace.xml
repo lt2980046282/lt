@@ -2,59 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db335e5b-d6ee-4091-9ea8-10fcb3f04207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestThread/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestThread/.idea/TestThread.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestThread/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestThread/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestThread/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestThread/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestThread/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestThread/test_thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../daili/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../daili/.idea/daili.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../daili/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../daili/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../daili/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../daili/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../daili/daili.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../daili/fail.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../daili/success.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/daili.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/danji/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/danji/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/danji/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/danji/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/danji/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/danji/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/danji/spiders/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/danji/spiders/jisu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/jisu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../danji/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/migrations/0002_delete_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/migrations/0003_failstore_store_successstore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fail.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/.idea/boss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/boss/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/boss/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/boss/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/boss/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/boss/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/boss/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boss/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../daili/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../daili/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../daili/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/ListCtrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../headers/headers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jupty/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jupty/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jupty/.idea/jupty.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jupty/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jupty/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jupty/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jupty/demo1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app02/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app02/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app02/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app02/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app02/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app02/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app02/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/novel/spiders/zxw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../novel/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.idea/redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/redis_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/redisdemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/test_redis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/daili.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/daili.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/dlmysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/dlmysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/fail_daili.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/fail_daili.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/success_daili.py" beforeDir="false" afterPath="$PROJECT_DIR$/../daili/success_daili.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daili/tesk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/NumpyArrayCreate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/NumpyArrayCreate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/上瘾游戏/第22话 信守承诺/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/上瘾游戏/第22话 信守承诺/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/上瘾游戏/第22话 信守承诺/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/上瘾游戏/第22话 信守承诺/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/上瘾游戏/第22话 信守承诺/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/主妇危机/第16章-礼物/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/交往条件/第15话/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/今天在哪嘞/第23话 多多观察/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/今天在哪嘞/第23话 多多观察/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/今天在哪嘞/第23话 多多观察/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/今天在哪嘞/第23话 多多观察/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/今天开始做明星/第1话/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/今天开始做明星/第1话/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/军人的诱惑/第17话 优先目标/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/军人的诱惑/第17话 优先目标/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/军人的诱惑/第17话 优先目标/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/剥夺/第40话 报复/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/剥夺/第40话 报复/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/双面代表/第1话 有夫之妇/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/同室房客/第26话 大咖来临/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/唤醒计划/第1话 相遇/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/天才医生/第24话/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/天才医生/第24话/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/头牌主播/第18话 救救我！优优！/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女人岛/第1话 魔爪/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女人岛/第1话 魔爪/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女人岛/第1话 魔爪/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女人岛/第1话 魔爪/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女人岛/第1话 魔爪/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女神直播间/第16话/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女神直播间/第16话/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女神直播间/第16话/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女神直播间/第16话/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女神直播间/第16话/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女神网咖/第35话 男朋友/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/女神网咖/第35话 男朋友/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/她的高跟鞋/第4话/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hanman/manhua/她的高跟鞋/第4话/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myscrapy/myscrapy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myscrapy/myscrapy/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/migrations/0002_yinghua.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/yinghua1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/yinghua2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/yinghua3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../TestThread/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../novel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../novel/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novel/novel/dlmsql.py" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/novel/dlmysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novel/novel/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/novel/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novel/novel/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/novel/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novel/novel/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/novel/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novel/novel/spiders/kuaidaili.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novel/novel/spiders/manhwa.py" beforeDir="false" afterPath="$PROJECT_DIR$/../novel/novel/spiders/novel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winrar/winrar.py" beforeDir="false" afterPath="$PROJECT_DIR$/../winrar/winrar.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,6 +290,8 @@
       <workItem from="1583315995778" duration="2803000" />
       <workItem from="1583333946876" duration="358000" />
       <workItem from="1583487867368" duration="4326000" />
+      <workItem from="1584778520971" duration="2763000" />
+      <workItem from="1584782173632" duration="263000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,7 @@
 #
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-
+from novel.dlmysql import random_proxy
 from scrapy import signals
 
 
@@ -71,7 +71,8 @@ class NovelDownloaderMiddleware(object):
     def process_request(self, request, spider):
         # Called for each request that goes through the downloader
         # middleware.
-
+        proxies = f'http://{random_proxy}'
+        request.meta['proxy'] = proxies
         # Must either:
         # - return None: continue processing this request
         # - or return a Response object

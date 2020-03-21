@@ -30,7 +30,7 @@ from numpy import pi
 a = np.linspace(0, 2, 9)
 print(a)
 
-b = np.linspace(0, 2*pi, 100)
+b = np.linspace(0, 2 * pi, 100)
 print(b)
 
 # set_printoptions开启打印整个数组
@@ -43,13 +43,13 @@ a = np.array((0, 45, 90, 180))
 b = np.arange(4)
 print(b)
 # 数组相减 大减小返回正数反之负数
-c = a-b
+c = a - b
 print(c)
 # 数组乘方
-d = b**3
+d = b ** 3
 print(d)
 # 数组三角函数运算
-e = 10*np.sin(a)
+e = 10 * np.sin(a)
 print(e)
 # 数组判断
 f = a < 35
@@ -84,12 +84,12 @@ print(c)
 b = np.array((2, -1, 4))
 d = np.add(a, b)
 print(d)
-d = a+b
+d = a + b
 print(d)
 
 # 索引，切片，循环
 
-a = np.arange(10)**3
+a = np.arange(10) ** 3
 print(a)
 b = a[2]
 print(b)
@@ -99,13 +99,14 @@ a[:6:2] = 1000
 print(a)
 print(a[::-1])
 for i in a:
-    print(i**1/3)
+    print(i ** 1 / 3)
+
 
 # 多维数组
 
 
 def f(x, y):
-    return x*10+y
+    return x * 10 + y
 
 
 b = np.fromfunction(f, (5, 4), dtype=int)
@@ -115,7 +116,7 @@ print(b[0:5, 1])
 print(b[:, 1])
 print(b[1:3])
 print(b[-1])
-c = np.array([[[0,  1,  2],               # a 3D array (two stacked 2D arrays)
+c = np.array([[[0, 1, 2],  # a 3D array (two stacked 2D arrays)
                [10, 12, 13]],
               [[100, 101, 102],
                [110, 112, 113]]])
@@ -125,9 +126,8 @@ print(c[:, 1])
 for row in b:
     print(row)
 
-
 # 改变阵列形状
-a = np.floor(10*rg.random((3, 4)))
+a = np.floor(10 * rg.random((3, 4)))
 print(a)
 print(a.shape)
 print(a.ravel())
@@ -137,19 +137,20 @@ a.resize(2, 2, 3)
 print(a)
 print(a.reshape(4, -1))
 
-
-a = np.floor(10*rg.random((2, 2)))
-b = np.floor(10*rg.random((2, 2)))
+a = np.floor(10 * rg.random((2, 2)))
+b = np.floor(10 * rg.random((2, 2)))
 c = np.vstack([a, b])
 print(c)
 d = np.hstack((a, b))
 print(d)
-from numpy import  newaxis
+
+from numpy import newaxis
+
 a = np.column_stack((a, b))
 print(a)
 b = a[:, newaxis]
 print(b)
-c = np.column_stack((a[:,newaxis], a[:,newaxis]))
+c = np.column_stack((a[:, newaxis], a[:, newaxis]))
 print(c)
-d = np.hstack((a[:,newaxis], a[:,newaxis]))   # the result is the same
+d = np.hstack((a[:, newaxis], a[:, newaxis]))  # the result is the same
 print(d)

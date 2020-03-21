@@ -1,6 +1,7 @@
 ﻿# encoding=utf-8
 import os
 from threading import Thread
+# 批量压缩工具
 
 
 class WinrarTools(Thread):
@@ -18,9 +19,8 @@ class WinrarTools(Thread):
 
 def compress(path, limit_size, file_name, mode):
     if 'cmp' in mode:
-        print(123)
         # 带密码分卷压缩
-        os.system(f'rar a -p980727 -v{limit_size}m {file_name}.rar {path}')
+        os.system(f'rar a -p980727  -v{limit_size}m {file_name}.rar {path}')
     elif 'cm' == mode:
         # 不带密码分卷压缩
         os.system(f'rar a -v{limit_size}m {file_name}.rar {path}')
@@ -28,7 +28,6 @@ def compress(path, limit_size, file_name, mode):
 
 def decompress(path, mode):
     if 'cmp' in mode:
-        print(123)
         # 带密码解压缩
         os.system(f'rar x {path}')
     elif 'cm' == mode:
@@ -38,10 +37,13 @@ def decompress(path, mode):
 
 def main():
     filenames = os.listdir()
-    print(filenames)
-    # for filename in filenames:
-    #     t = WinrarTools(f'E:/hanman/manhua/{filename}', 100, f'E:/hanman/manhua/{filename}', 'cmp')
-    #     t.start()
+    for filename in filenames:
+        if os.path.isdir(f'{filename}'):
+            print(filename)
+            t = WinrarTools(f'/{filename}/a', 100, f'{filename}', 'cmp')
+            t.start()
+        else:
+            continue
 
 
 if __name__ == '__main__':

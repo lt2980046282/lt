@@ -4,15 +4,17 @@
 #
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
-
 class NovelItem(scrapy.Item):
-    # content = scrapy.Field()
+    content = scrapy.Field()
     author = scrapy.Field()
-    # chapter_name = scrapy.Field()
+    chapter_name = scrapy.Field()
     novel_name = scrapy.Field()
     type = scrapy.Field()
-    url = scrapy.Field()
-    pass
+
+class JMSWItem(scrapy.Item):
+    novel_name = scrapy.Field()
+    author = scrapy.Field()
+    chapter_name = scrapy.Field()
+    content = scrapy.Field()
