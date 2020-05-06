@@ -1,0 +1,1 @@
+<view class="data-v-32642c10"><block wx:if="{{isLogin}}"><button data-event-opts="{{[['tap',[['loginOut',['$event']]]]]}}" class="button data-v-32642c10" bindtap="__e">退出登录</button></block></view>

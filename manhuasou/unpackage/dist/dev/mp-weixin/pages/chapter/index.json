@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "漫画搜",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control"
+  }
+}

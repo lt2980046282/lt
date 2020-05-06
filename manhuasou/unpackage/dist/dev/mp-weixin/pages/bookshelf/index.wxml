@@ -1,0 +1,1 @@
+<view><view style="border-bottom:1rpx solid #CCCCCC;padding-top:10rpx;"><uni-segmented-control vue-id="2b0313ab-1" current="{{current}}" values="{{items}}" style-type="button" active-color="white" data-event-opts="{{[['^clickItem',[['onClickItem']]]]}}" bind:clickItem="__e" bind:__l="__l"></uni-segmented-control></view><block wx:if="{{current===0}}"><view></view></block></view>

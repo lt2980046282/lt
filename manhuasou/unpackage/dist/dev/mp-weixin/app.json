@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/index",
+    "pages/chapter/index",
+    "pages/content/index",
+    "pages/bookshelf/index",
+    "pages/my/index",
+    "pages/user/index",
+    "pages/user/forget-pwd",
+    "pages/user/register",
+    "pages/user/login"
+  ],
+  "subPackages": [],
+  "window": {},
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "#FF8C00",
+    "color": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/bookshelf/index",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap81.json"
+}

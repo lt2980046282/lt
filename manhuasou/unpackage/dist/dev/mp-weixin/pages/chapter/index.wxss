@@ -1,0 +1,200 @@
+@font-face {
+	font-family: 'iconfont';
+	/* project id 1525278 */
+	src: url('//at.alicdn.com/t/font_1525278_gcw28gvg8ps.eot');
+	src: url('//at.alicdn.com/t/font_1525278_gcw28gvg8ps.eot?#iefix') format('embedded-opentype'),
+		url('//at.alicdn.com/t/font_1525278_gcw28gvg8ps.woff2') format('woff2'),
+		url('//at.alicdn.com/t/font_1525278_gcw28gvg8ps.woff') format('woff'),
+		url('//at.alicdn.com/t/font_1525278_gcw28gvg8ps.ttf') format('truetype'),
+		url('//at.alicdn.com/t/font_1525278_gcw28gvg8ps.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 18px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top_nav.data-v-70d82804 {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 710rpx;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.top_nav .iconfont.data-v-70d82804 {
+  color: #ffffff;
+  font-size: 45rpx;
+}
+.fixd_top_nav.data-v-70d82804 {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 710rpx;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: #FFFFFF;
+  padding-bottom: 20rpx;
+}
+.fixd_top_nav .iconfont.data-v-70d82804 {
+  color: #FF9700;
+  font-size: 45rpx;
+}
+.menu_fixd.data-v-70d82804 {
+  padding: 0;
+  margin-top: -320rpx;
+  position: fixed;
+  z-index: 100;
+  width: 750rpx;
+  height: 100rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: #FFFFFF;
+  overflow-anchor: auto;
+}
+.menu.data-v-70d82804 {
+  border-bottom: 2rpx solid #cccccc;
+  padding: 10rpx;
+}
+.chapter_list.data-v-70d82804 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 150rpx;
+}
+.chapter_list .chapter_item.data-v-70d82804 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #c0c0c0;
+}
+.chapter_list .chapter_item .chapter_name.data-v-70d82804 {
+  font-size: 32rpx;
+  padding-left: 20rpx;
+}
+.chapter_list .chapter_item .update_time.data-v-70d82804 {
+  padding-top: 50rpx;
+  padding-left: 20rpx;
+  font-size: 25rpx;
+}
+.author.data-v-70d82804 {
+  padding: 20rpx;
+  font-size: 28rpx;
+}
+.chapter_nav.data-v-70d82804 {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  background: #ffffff;
+  width: 750rpx;
+  height: 100rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.chapter_nav .collection.data-v-70d82804 {
+  width: 200rpx;
+  font-size: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.chapter_nav .comment.data-v-70d82804 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 125rpx;
+  font-size: 20rpx;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.chapter_nav .reading.data-v-70d82804 {
+  background-color: #FF83C00;
+  background: #ff8c00;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 32rpx;
+}
+

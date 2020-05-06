@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "漫画搜",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {}
+}
