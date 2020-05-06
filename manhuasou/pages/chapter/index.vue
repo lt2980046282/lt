@@ -90,7 +90,7 @@ export default {
 			this.token = res.data
 		} })
 		uni.request({
-			url: 'http://192.168.2.100/showChapterlist/' + option.id+'/'+this.token, //仅为示例，并非真实接口地址。
+			url: 'http://api.baititong.top:8000/showChapterlist/' + option.id+'/'+this.token, //仅为示例，并非真实接口地址。
 			data: {},
 			header: {},
 			success: res => {
